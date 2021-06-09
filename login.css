@@ -1,0 +1,365 @@
+/* login block */
+
+.center {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30;
+    position: relative;
+    margin-top: 30px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login {
+    margin: 100px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 420px;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10 px rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.welcome {
+    position: relative;
+    margin-left: 90%;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+
+.logout {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formdata {
+    margin: 220px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 450px;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10 px rgba(0, 0, 0, 1);
+    overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formdata table tr td {
+    color: #fff;
+    border: solid 2px;
+    text-align: center;
+}
+
+.control input {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #555;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+}
+
+.gbr {
+    font-family: system-ui;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.rp input {
+    font-family: 'Courier New', Courier, monospace;
+    width: 86%;
+    padding: 10px;
+    color: #555;
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.error {
+    color: red;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.logo {
+    position: relative;
+    text-align: left;
+    margin-left: 5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(terarria.png);
+    background-size: cover;
+    background-position: inherit;
+    font-family: sans-serif;
+}
+
+
+/* sosmed + gambar */
+
+.fa-instagram {
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.fa-discord {
+    color: cornflowerblue;
+    font-size: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.fa-steam-square {
+    color: darkblue;
+}
+
+.fa-address-book {
+    color: blue;
+}
+
+.fa-map-marker {
+    color: red;
+}
+
+.fa-envelope-o {
+    color: gray;
+}
+
+.fa-phone {
+    color: lightgreen;
+}
+
+p.menu {
+    font-family: sans-serif;
+}
+
+.reg {
+    float: right;
+}
+
+img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header ul {
+    font-family: cursive;
+    float: right;
+}
+
+.nav-item .active {
+    text-decoration: underline pink;
+    text-shadow: 2px 2px pink;
+}
+
+.about {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 143, 119, -6)
+}
+
+.contact {
+    margin: 100px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    background-image: url(wallcontact.jpeg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px solid pink;
+}
+
+.info {
+    margin: auto;
+    float: left;
+    padding: 20px;
+}
+
+.message {
+    margin: auto;
+    float: right;
+    padding: 20px;
+    width: 400px;
+}
+
+.buyer {
+    width: 400px;
+    margin: auto;
+    float: left;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.order {
+    float: right;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.po {
+    border: 3px solid pink;
+    background-image: url(wallorder.jpeg);
+}
+
+.product {
+    margin: 50px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.card-body {
+    border: 2px solid pink;
+    background: lightyellow;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    border: 2px solid pink;
+}
+
+.card-title {
+    font-family: serif;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+.footer {
+    position: sticky;
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: grey;
+    color: white;
+}
+
+.coki {
+    margin: 100px;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 600px;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10 px rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.mid {
+    margin: 100px;
+    margin-left: 300px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 600px;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10 px rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.crud {
+    position: relative;
+    margin-left: 300px;
+}
+
+
+/* buat hp */
+
+@media (max-width: 1200px) {
+    .po {
+        margin: auto;
+        width: auto;
+    }
+    .order {
+        float: inherit;
+    }
+    @media (max-width: 1012px) {
+        .message {
+            display: block;
+            width: 70%;
+            float: inherit;
+            justify-content: center;
+        }
+        .info {
+            float: inherit;
+        }
+    }
+}
